@@ -137,6 +137,12 @@
 <pre><code>sudo su - -c &quot;R -e \&quot;install.packages('plotly', repos='https://cran.rstudio.com/')\&quot;&quot;
 
 </code></pre>
+<pre><code>sudo su - -c &quot;R -e \&quot;install.packages('htmltools', repos='https://cran.rstudio.com/')\&quot;&quot;
+
+</code></pre>
+<pre><code>sudo su - -c &quot;R -e \&quot;install.packages('reactable', repos='https://cran.rstudio.com/')\&quot;&quot;
+
+</code></pre>
 <p><strong>Step 3: Install shiny-server</strong></p>
 <p><strong>Get gdebi to install .deb files</strong></p>
 <pre><code>sudo apt-get install gdebi-core
@@ -168,6 +174,9 @@ sudo rm -r conda/
 <p><strong>Move all R files to the main directory</strong></p>
 <pre><code>sudo mv R/* ./
 </code></pre>
+<p>Delete the empty R directory</p>
+<pre><code>sudo rm -r R
+</code></pre>
 <p><strong>Change the global.R file</strong></p>
 <pre><code>sudo vim global.R
 </code></pre>
@@ -189,6 +198,7 @@ source(here(&quot;./ui.R&quot;))
 <p><br><br>
 <strong>Step 5: Check deployment</strong></p>
 <p>SCI-VCF will now be available at <code>your.server.ip_address/SCI-VCF/</code></p>
+<p><em>Note: For better user experience, the hyperlinks in the tool can also be made to open in a new browser tab</em></p>
               
             </div>
           </div><footer>

@@ -37,3 +37,20 @@ Unique and common variants in two VCF files are identified by using the first ei
 + Variants Distribution: Visualize the occurrence of unique and common variants in different genomic ranges.
 + Download Summaries: Extract the results as a tabular dataset for further analysis.
 + Download Variants: Extract the common and unique variants as a tabular dataset for further analysis.
+
+
+## Interface
+
+SCI-VCF offers a framework to view, search, sort, identify, and filter the contents of a VCF file.
+
+![Overall_summary](img/interface_tab.png)
+
+### Interface Submodules
+
++ Upload VCF: Click the browse button and upload a VCF file.
++ Meta-Information: View, search, and download the meta-information present in the uploaded file.
++ Sort Variants: Sort variants in ascending order of CHROM, POS, REF, and ALT columns. Unique variant IDs can also be added in CHROM_POS_REF_ALT format.
++ Variant Site Filtering: Filter variants from a particular genomic region.
++ Variant Quality Filtering: Filter variants based on the FILTER and QUAL columns.
++ Variant Type Filtering: Filter SNPs and INDELs separately.
++ Search-based Filtering: View the contents of a VCF file and filter based on keyword search.

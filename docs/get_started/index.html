@@ -71,6 +71,12 @@
     </li>
         </ul>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#interface">Interface</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#interface-submodules">Interface Submodules</a>
+    </li>
+        </ul>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -141,6 +147,19 @@
 <li>Variants Distribution: Visualize the occurrence of unique and common variants in different genomic ranges.</li>
 <li>Download Summaries: Extract the results as a tabular dataset for further analysis.</li>
 <li>Download Variants: Extract the common and unique variants as a tabular dataset for further analysis.</li>
+</ul>
+<h2 id="interface">Interface</h2>
+<p>SCI-VCF offers a framework to view, search, sort, identify, and filter the contents of a VCF file.</p>
+<p><img alt="Overall_summary" src="../img/interface_tab.png" /></p>
+<h3 id="interface-submodules">Interface Submodules</h3>
+<ul>
+<li>Upload VCF: Click the browse button and upload a VCF file.</li>
+<li>Meta-Information: View, search, and download the meta-information present in the uploaded file.</li>
+<li>Sort Variants: Sort variants in ascending order of CHROM, POS, REF, and ALT columns. Unique variant IDs can also be added in CHROM_POS_REF_ALT format.</li>
+<li>Variant Site Filtering: Filter variants from a particular genomic region.</li>
+<li>Variant Quality Filtering: Filter variants based on the FILTER and QUAL columns.</li>
+<li>Variant Type Filtering: Filter SNPs and INDELs separately.</li>
+<li>Search-based Filtering: View the contents of a VCF file and filter based on keyword search.</li>
 </ul>
               
             </div>

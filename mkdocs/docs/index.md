@@ -1,6 +1,6 @@
 # SCI-VCF
 
-SCI-VCF is a comprehensive toolkit for summarising, comparing, and visualising genetic variants from the variant call format (VCF).
+SCI-VCF is a comprehensive toolkit for summarising, comparing, inspecting, and visualising genetic variants from the variant call format (VCF).
 
 Users can download and install SCI-VCF locally or on remote servers using the code available on [GitHub](https://github.com/HimanshuLab/SCI-VCF). 
 
