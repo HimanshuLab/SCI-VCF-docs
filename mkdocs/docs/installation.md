@@ -1,14 +1,14 @@
 # Installation for personal use
 
 
-SCI-VCF can be installed locally, in multiple ways!
+SCI-VCF can be installed locally in multiple ways!
 
 ## Online access
 
 Step 1:  Open the [SCI-VCF](https://ibse.shinyapps.io/sci-vcf-online/) website.
 
 
-*Note: Online version of SCI-VCF comes with upload size limitations. To get the full functionalities of SCI-VCF, use a local/server installation of the tool.*
+*Note: The online version of SCI-VCF comes with upload size limitations. To get the full functionalities of SCI-VCF, use a local/server installation of the tool.*
 
 
 
@@ -27,9 +27,9 @@ You can download the zipped version of the repo at this <a href="https://github.
 
 ![github_download_image](img/github_zip_download.png)
 
-**Step 2: Extract the files in your computer.** 
+**Step 2: Extract the files on your computer.** 
 
-This will create a foler in you computer called SCI-VCF-main. Open that folder.
+This will create a folder in your computer called SCI-VCF-main. Open that folder.
 
 
 **Step 3: Launch SCI-VCF**
@@ -42,7 +42,7 @@ Open the folder named ```R```. Open ```global.R``` with RStudio and click the ``
 
 <br>
 
-## Conda based installation
+## Conda-based installation
 
 
 ### Prerequisites
@@ -80,15 +80,15 @@ rstudio R/global.R
 Step 5: Launch SCI-VCF by clicking the ```Run App``` button.
 
 
-*Note: For conda-based installation in Windoas OS, we recommend using the Windows Subsystem for Linux. More information is available in the [FAQ](faq.md) section.*
+*Note: For conda-based installation in Windows OS, we recommend using the Windows Subsystem for Linux. More information is available in the [FAQ](faq.md) section.*
 
-## Docker based installation
+## Docker-based installation
 
 ### Prerequisites
 
 + Docker <a href="https://docs.docker.com/get-docker/" target="_blank">(link)</a>.
 + Web Browser
-+ Sudo privelleges
++ Sudo privileges
 
 **Step 1: Get the SCI-VCF image from Docker Hub and run it**
 ```

@@ -1,6 +1,6 @@
 # Deploy SCI-VCF for communal use
 
-SCI-VCF can be deployed using shiny-server for communal use. Sudo access might be required for this purpose. Such a deployment would make SCI-VCF accessible to everyone connected to the institute's intranet.
+SCI-VCF can be deployed using Shiny-Server for communal use. Sudo access might be required for this purpose. Such a deployment would make SCI-VCF accessible to everyone connected to the institute's intranet.
 
 **Step 1: Install R**
 
@@ -155,7 +155,7 @@ source(here("./ui.R"))
 ```
 
 <br><br>
-**Step 5: Check deployment**
+**Step 5: Check the deployment**
 
 SCI-VCF will now be available at ```your.server.ip_address/SCI-VCF/```
 

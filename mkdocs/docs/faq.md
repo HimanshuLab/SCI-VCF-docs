@@ -3,7 +3,7 @@
 ## General
 **1) Where can I access the latest SCI-VCF source code?**
 
-You can access the source code via Github <a href="https://github.com/HimanshuLab/SCI-VCF" target="_blank">link.</a>
+You can access the source code via the GitHub <a href="https://github.com/HimanshuLab/SCI-VCF" target="_blank">link.</a>
 
 
 **2) How can I report bugs and suggest improvements in SCI-VCF?**
@@ -23,14 +23,14 @@ Venkatesh Kamaraj, and Himanshu Sinha. "SCI-VCF: A cross-platform GUI solution t
 
 Step 1. Install WSL. [Documentation](https://docs.microsoft.com/en-us/windows/wsl/install) <br>
 Step 2. Install Miniconda inside WSL. [Reference](https://educe-ubc.github.io/conda.html) <br>
-Step 3. Install MobaXterm Home edition. It is a free software that offers enhanced terminal for Windows with an X11 server. [Documentation](https://mobaxterm.mobatek.net/download.html) <br> 
+Step 3. Install MobaXterm Home edition. It is a free software that offers an enhanced terminal for Windows with an X11 server. [Documentation](https://mobaxterm.mobatek.net/download.html) <br> 
 Step 4. Open a WSL terminal inside MobaXterm (Open MobaXterm --> Click on Sessions --> New Sessions --> WSL --> Select Linux distribution --> OK)
-Step 5. Follow the instructions in *Conda based installation* in the [installation](installation.md) page  
+Step 5. Follow the instructions for *Conda-based installation* on the [installation](installation.md) page  
 
 
 ### Docker
 
-**5) How to run Docker container as a detached backend job and keep SCI-VCF always active?**
+**5) How to run the Docker container as a detached backend job and keep SCI-VCF always active?**
 
 Run the docker image in detached mode.
 ```
@@ -46,7 +46,7 @@ Add your user to the ```docker``` group
 sudo usermod -a -G docker username
 ```
 
-If the issue still persist, the socket file can be made available to everyone instead of just the users in the ```docker``` group.
+If the issue persists, the socket file can be made available to everyone instead of just the users in the ```docker``` group.
 
 ```
 sudo chmod 666 /var/run/docker.sock
@@ -65,23 +65,23 @@ xhost local:docker
 
 *Note: File upload size cannot be altered in the online version of SCI-VCF. It can only be done in the local/remote installation/deployments.*
 
-Open ```R/global.R``` file in RStudio. Go to Line #20
+Open ```R/global.R``` file in RStudio. Go to Line #27
 ```
-#set maximum file upload size in shiny to 1 GB
+#set maximum file upload size in Shiny to 1 GB
 options(shiny.maxRequestSize = 1 * 1024^3) 
 ```
-Edit the upoad file size according to your requirement.
+Edit the upload file size according to your requirements.
 
-**9) How to change default file processing steps?**
+**9) How to change the default file processing steps?**
 Open ```R/summarize_vcf.R```. Go to Line #4
 ```
 break_multiallelic_sites = TRUE, remove_duplicated_entries = TRUE
 ```
-Disable the parameters according to your requirement.
+Disable the parameters according to your requirements.
 
 
 ## Output VCF files
-**10) Issues with SCI-VCF outputed VCF files?**
+**10) Issues with SCI-VCF outputted VCF files?**
 
 While the VCF format is conserved in the output file, the compression algorithm used is parallelized and is not gzip-based. Recent VCF processing software requires their input VCF files to be gzipped. To overcome this, decompress and recompress the SCI-VCF output VCFs using a gzip-based compressing algorithm:
 

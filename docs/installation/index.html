@@ -61,7 +61,7 @@
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#conda-based-installation">Conda based installation</a>
+    <li class="toctree-l2"><a class="reference internal" href="#conda-based-installation">Conda-based installation</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#prerequisites_1">Prerequisites</a>
     </li>
@@ -69,7 +69,7 @@
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#docker-based-installation">Docker based installation</a>
+    <li class="toctree-l2"><a class="reference internal" href="#docker-based-installation">Docker-based installation</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#prerequisites_2">Prerequisites</a>
     </li>
@@ -126,10 +126,10 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="installation-for-personal-use">Installation for personal use</h1>
-<p>SCI-VCF can be installed locally, in multiple ways!</p>
+<p>SCI-VCF can be installed locally in multiple ways!</p>
 <h2 id="online-access">Online access</h2>
 <p>Step 1:  Open the <a href="https://ibse.shinyapps.io/sci-vcf-online/">SCI-VCF</a> website.</p>
-<p><em>Note: Online version of SCI-VCF comes with upload size limitations. To get the full functionalities of SCI-VCF, use a local/server installation of the tool.</em></p>
+<p><em>Note: The online version of SCI-VCF comes with upload size limitations. To get the full functionalities of SCI-VCF, use a local/server installation of the tool.</em></p>
 <h2 id="rstudio-based-installation">RStudio based installation</h2>
 <h3 id="prerequisites">Prerequisites</h3>
 <ul>
@@ -140,14 +140,14 @@
 <p><strong>Step 1: Get the SCI-VCF repository from GitHub.</strong> </p>
 <p>You can download the zipped version of the repo at this <a href="https://github.com/HimanshuLab/SCI-VCF" target="_blank">link</a></p>
 <p><img alt="github_download_image" src="../img/github_zip_download.png" /></p>
-<p><strong>Step 2: Extract the files in your computer.</strong> </p>
-<p>This will create a foler in you computer called SCI-VCF-main. Open that folder.</p>
+<p><strong>Step 2: Extract the files on your computer.</strong> </p>
+<p>This will create a folder in your computer called SCI-VCF-main. Open that folder.</p>
 <p><strong>Step 3: Launch SCI-VCF</strong></p>
 <p>Open the folder named <code>R</code>. Open <code>global.R</code> with RStudio and click the <code>Run App</code> button.</p>
 <p><img alt="rstudio_runapp_image" src="../img/rstudio_runapp.png" /></p>
 <p><em>Note: The first time you launch SCI-VCF by clicking the <code>Run App</code> button, some dependencies will be downloaded. Kindly wait till then. You need to be connected to the internet and might need to give authorization if required. Once the dependencies are installed, SCI-VCF can be used offline thereafter.</em></p>
 <p><br></p>
-<h2 id="conda-based-installation">Conda based installation</h2>
+<h2 id="conda-based-installation">Conda-based installation</h2>
 <h3 id="prerequisites_1">Prerequisites</h3>
 <ul>
 <li>Conda <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html#regular-installation" target="_blank">(link)</a></li>
@@ -170,13 +170,13 @@
 <pre><code>rstudio R/global.R
 </code></pre>
 <p>Step 5: Launch SCI-VCF by clicking the <code>Run App</code> button.</p>
-<p><em>Note: For conda-based installation in Windoas OS, we recommend using the Windows Subsystem for Linux. More information is available in the <a href="../faq/">FAQ</a> section.</em></p>
-<h2 id="docker-based-installation">Docker based installation</h2>
+<p><em>Note: For conda-based installation in Windows OS, we recommend using the Windows Subsystem for Linux. More information is available in the <a href="../faq/">FAQ</a> section.</em></p>
+<h2 id="docker-based-installation">Docker-based installation</h2>
 <h3 id="prerequisites_2">Prerequisites</h3>
 <ul>
 <li>Docker <a href="https://docs.docker.com/get-docker/" target="_blank">(link)</a>.</li>
 <li>Web Browser</li>
-<li>Sudo privelleges</li>
+<li>Sudo privileges</li>
 </ul>
 <p><strong>Step 1: Get the SCI-VCF image from Docker Hub and run it</strong></p>
 <pre><code>sudo docker run -it --rm -p 3000:3000 venkatk89/sci-vcf

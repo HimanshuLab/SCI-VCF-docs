@@ -1,6 +1,6 @@
 # Getting Started
 
-A guide to understand the workflows and submodules of SCI-VCF for summarizing, comparing, visualizing and analysing your VCF files.
+A guide to understanding the workflows and submodules of SCI-VCF for summarizing, comparing, visualizing, and analysing your VCF files.
 
 
 ## Summarize 
