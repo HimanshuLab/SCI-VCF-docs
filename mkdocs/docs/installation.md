@@ -72,13 +72,19 @@ conda env create -f conda/SCI-VCF_conda_env.yaml
 conda activate SCI-VCF
 ```
 
-**Step 5: Open ```global.R``` from the ```R``` directory in RStudio**
+**Step 5: Open ```global.R``` with R**
 ```
-rstudio R/global.R
+RScript R/global.R
 ```
 
-Step 5: Launch SCI-VCF by clicking the ```Run App``` button.
+The following output will be printed
 
+![conda_installation](img/conda_installation.png)
+
+
+**Step 6: Open SCI-VCF in a browser**
+
+Copy the IP address at the end of the CLI output from Step 5. Paste it in a browser search tab and load the same. SCI-VCF will be launched.
 
 *Note: For conda-based installation in Windows OS, we recommend using the Windows Subsystem for Linux. More information is available in the [FAQ](faq.md) section.*
 
