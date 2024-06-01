@@ -128,6 +128,7 @@
                 <h1 id="installation-for-personal-use">Installation for personal use</h1>
 <p>SCI-VCF can be installed locally in multiple ways!</p>
 <h2 id="online-access">Online access</h2>
+<p><em>Important: The online version of SCI-VCF is on shinyapps.io, currently hosted on Amazon’s Web Services (AWS) infrastructure in the US-east-1 region. The infrastructure used is not the HIPAA-compliant stack, and users must take care to upload only anonymized and appropriate data. To work with sensitive data, we recommend a local installation of SCI-VCF.</em></p>
 <p>Step 1:  Open the <a href="https://ibse.shinyapps.io/sci-vcf-online/">SCI-VCF</a> website.</p>
 <p><em>Note: The online version of SCI-VCF comes with upload size limitations. To get the full functionalities of SCI-VCF, use a local/server installation of the tool.</em></p>
 <h2 id="rstudio-based-installation">RStudio based installation</h2>
@@ -167,7 +168,7 @@
 <pre><code>conda activate SCI-VCF
 </code></pre>
 <p><strong>Step 5: Open <code>global.R</code> with R</strong></p>
-<pre><code>RScript R/global.R
+<pre><code>Rscript R/global.R
 </code></pre>
 <p>The following output will be printed</p>
 <p><img alt="conda_installation" src="../img/conda_installation.png" /></p>
