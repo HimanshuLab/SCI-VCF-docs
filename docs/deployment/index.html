@@ -106,7 +106,7 @@
 <p><strong>Step 1: Install R</strong></p>
 <pre><code>sudo apt-get install r-base
 </code></pre>
-<p>For installation guidelines, the <a href="https://cran.r-project.org/">documentation</a> can be followed. </p>
+<p>SCI-VCF is compatible with R version &gt;= 4.2. For installation guidelines, the <a href="https://cran.r-project.org/">documentation</a> can be followed.</p>
 <p><strong>Step 2: Install dependencies of SCI-VCF</strong></p>
 <pre><code>sudo su - -c &quot;R -e \&quot;install.packages('shiny', repos='https://cran.rstudio.com/')\&quot;&quot;
 </code></pre>
@@ -166,6 +166,8 @@
 <p><strong>Get SCI-VCF</strong></p>
 <pre><code>sudo git clone https://github.com/HimanshuLab/SCI-VCF
 </code></pre>
+<pre><code>cd SCI-VCF
+</code></pre>
 <p><strong>Alter the file structure</strong></p>
 <pre><code>sudo rm Dockerfile
 sudo rm README.md
@@ -197,7 +199,7 @@ source(here(&quot;./ui.R&quot;))
 </code></pre>
 <p><br><br>
 <strong>Step 5: Check the deployment</strong></p>
-<p>SCI-VCF will now be available at <code>your.server.ip_address/SCI-VCF/</code></p>
+<p>SCI-VCF will now be available at <code>your.server.ip_address:3838/SCI-VCF/</code></p>
 <p><em>Note: For better user experience, the hyperlinks in the tool can also be made to open in a new browser tab</em></p>
               
             </div>

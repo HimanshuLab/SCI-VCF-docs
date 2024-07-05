@@ -8,7 +8,7 @@ SCI-VCF can be deployed using Shiny-Server for communal use. Sudo access might b
 sudo apt-get install r-base
 ```
 
-For installation guidelines, the [documentation](https://cran.r-project.org/) can be followed. 
+SCI-VCF is compatible with R version >= 4.2. For installation guidelines, the [documentation](https://cran.r-project.org/) can be followed.
 
 
 **Step 2: Install dependencies of SCI-VCF**
@@ -109,6 +109,10 @@ sudo git clone https://github.com/HimanshuLab/SCI-VCF
 ```
 
 
+```
+cd SCI-VCF
+```
+
 **Alter the file structure**
 ```
 sudo rm Dockerfile
@@ -157,7 +161,7 @@ source(here("./ui.R"))
 <br><br>
 **Step 5: Check the deployment**
 
-SCI-VCF will now be available at ```your.server.ip_address/SCI-VCF/```
+SCI-VCF will now be available at ```your.server.ip_address:3838/SCI-VCF/```
 
 
 *Note: For better user experience, the hyperlinks in the tool can also be made to open in a new browser tab*
