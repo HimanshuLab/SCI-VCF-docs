@@ -8,4 +8,6 @@ Detailed installation guidelines are available [here](installation.md).
 
 For installation-free use, SCI-VCF is also deployed [online](https://ibse.shinyapps.io/sci-vcf-online/).
 
+The research article for SCI-VCF can be found [here](https://doi.org/10.1093/nargab/lqae083).
+
 

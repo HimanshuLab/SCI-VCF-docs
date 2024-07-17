@@ -13,7 +13,7 @@ You can post your bugs and suggestions <a href="https://github.com/HimanshuLab/S
 
 **3) How do I cite SCI-VCF?**
 
-Venkatesh Kamaraj, and Himanshu Sinha. "SCI-VCF: A cross-platform GUI solution to Summarise, Compare, Inspect, and Visualise the Variant Call Format," 2024. https://doi.org/10.1101/2023.08.09.552664
+Venkatesh Kamaraj, Himanshu Sinha, SCI-VCF: a cross-platform GUI solution to summarize, compare, inspect and visualize the variant call format, NAR Genomics and Bioinformatics, Volume 6, Issue 3, September 2024, lqae083, <a href="https://doi.org/10.1093/nargab/lqae083" target="_blank">https://doi.org/10.1093/nargab/lqae083</a>
 
 **4) Is the online version of SCI-VCF hosted on a HIPAA-compliant infrastructure?**
 
